@@ -1,0 +1,23 @@
+{
+  "name": "saju_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio and research laboratory of Sajan S (@sajansaju20) — Cybersecurity Engineer & AI Security Researcher",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajansaju20/saju_portfolio.git"
+  },
+  "homepage": "https://github.com/sajansaju20/saju_portfolio",
+  "scripts": {
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": [
+    "cybersecurity",
+    "ai-security",
+    "portfolio",
+    "threat-detection",
+    "sajan-s",
+    "sajansaju20"
+  ],
+  "author": "Sajan S <cybersaju20@gmail.com>"
+}
