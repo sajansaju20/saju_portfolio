@@ -89,13 +89,14 @@
         <div class="hero-grid">
           
           <!-- LEFT: Large Monochrome Portrait -->
-          <div class="hero-image-wrapper reveal-mask">
+          <div class="hero-image-wrapper">
             <div class="hero-image-container">
               <img 
                 src="assets/images/sajan_hero.jpg" 
                 alt="Portrait of Sajan S, Cybersecurity Engineer and AI Researcher" 
                 class="hero-portrait"
                 loading="eager"
+                onerror="if(!this.dataset.tried){this.dataset.tried=1;this.src='sajan.jpg';}"
               />
               <div class="hero-image-overlay"></div>
               <div class="hero-image-badge">
@@ -172,13 +173,14 @@
           </div>
 
           <!-- RIGHT: Laboratory Portrait -->
-          <div class="about-visual-col reveal-mask">
+          <div class="about-visual-col">
             <div class="about-image-container">
               <img 
                 src="assets/images/sajan_about.jpg" 
                 alt="Sajan S analyzing security telemetry in research laboratory" 
                 class="about-image"
-                loading="lazy"
+                loading="eager"
+                onerror="if(!this.dataset.tried){this.dataset.tried=1;this.src='sajan.jpg';}"
               />
             </div>
           </div>
