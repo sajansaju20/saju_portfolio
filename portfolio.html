@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Sajan S — Cybersecurity Engineer &amp; AI Security Researcher">
   <meta property="og:description" content="Building intelligent systems that detect, investigate, and defend against emerging cyber threats.">
-  <meta property="og:image" content="assets/images/sajan_hero.jpg">
+  <meta property="og:image" content="sajan.png">
   <meta property="og:url" content="https://github.com/sajansaju20">
   
   <!-- Favicon -->
@@ -92,11 +92,12 @@
           <div class="hero-image-wrapper">
             <div class="hero-image-container">
               <img 
-                src="assets/images/sajan_hero.jpg" 
+                src="sajan.png?v=3" 
                 alt="Portrait of Sajan S, Cybersecurity Engineer and AI Researcher" 
                 class="hero-portrait"
                 loading="eager"
-                onerror="if(!this.dataset.tried){this.dataset.tried=1;this.src='sajan.jpg';}"
+                fetchpriority="high"
+                onerror="this.src='assets/images/sajan_official.jpg';"
               />
               <div class="hero-image-overlay"></div>
               <div class="hero-image-badge">
